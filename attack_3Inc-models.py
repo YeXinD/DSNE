@@ -18,7 +18,7 @@ from scipy.misc import imresize
 
 import tensorflow as tf
 
-from nets_change import inception_resnet_v2_original, inception_v3, inception_v4, inception_resnet_v2, resnet_v2_50, resnet_v2_101, resnet_v2_152
+from nets_DSNE import inception_resnet_v2_original, inception_v3, inception_v4, inception_resnet_v2, resnet_v2_50, resnet_v2_101, resnet_v2_152
 
 slim = tf.contrib.slim
 
